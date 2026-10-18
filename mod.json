@@ -1,6 +1,6 @@
 {
   "geode": "5.11.2",
-  "gd": { "win": "2.2084", "android": "2.2084" },
+  "gd": { "win": "2.2081", "android": "2.2081" },
   "id": "tuusuario.tick-assist",
   "name": "Tick Assist",
   "version": "v1.0.0",
