@@ -3,6 +3,8 @@ on:
   workflow_dispatch:
   push:
     branches: ["**"]
+env:
+  CXXFLAGS: -DFMT_USE_CONSTEVAL=0
 jobs:
   build:
     name: Windows
