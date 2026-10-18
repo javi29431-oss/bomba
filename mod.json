@@ -1,0 +1,19 @@
+{
+  "geode": "4.0.0",
+  "gd": { "win": "2.2074", "android": "2.2074" },
+  "id": "tuusuario.tick-assist",
+  "name": "Tick Assist",
+  "version": "v1.0.0",
+  "developer": "tuusuario",
+  "description": "Buffer de input educativo con 3 niveles (tecla Y). Solo en practica por defecto.",
+  "settings": {
+    "ticks-bajo": { "type": "int", "name": "Ticks nivel bajo", "default": 2, "min": 1, "max": 16 },
+    "ticks-alto": { "type": "int", "name": "Ticks nivel alto", "default": 16, "min": 1, "max": 32 },
+    "permitir-modo-normal": {
+      "type": "bool",
+      "name": "Permitir en modo normal",
+      "description": "Si esta desactivado, la asistencia solo funciona en practica/test.",
+      "default": false
+    }
+  }
+}
