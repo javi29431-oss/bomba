@@ -1,8 +1,3 @@
-
-Javi <javi29431@gmail.com>
-20:07 (hace 0 minutos)
-para mí
-
 name: Build Mod
 on:
   workflow_dispatch:
